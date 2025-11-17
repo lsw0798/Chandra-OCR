@@ -1,9 +1,12 @@
 ## Chandra OCR
-문서를 HTML/Markdown/JSON 세가지 구조로 변환
-vLLM 모드/Huggingface 로컬 모드가 있음
+PDF/이미지 문서를 HTML/Markdown/JSON 세가지 구조로 변환
+vLLM 모드/Huggingface 로컬 모드
 
-* 이미지 데이터 외부 전송을 방지하기 위해 로컬에서 진행
+-> 이미지를 .html파일과 .csv파일로 생성
+
+* 이미지 데이터 외부 전송을 방지하기 위해 vLLM이 아닌 로컬에서 진행
 * pdf가 아닌 이미지 형식은 HTML 구조로 밖에 변환이 안됨
+
 
 ### OCR(Optical Character Recognition): 광학문자인식
 이미지나 pdf 문서에서 텍스트 데이터를 인식해서 추출하는 기술
