@@ -1,7 +1,8 @@
-## Chandra OCR
-PDF/이미지 문서를 HTML/Markdown/JSON 세가지 구조로 변환
-vLLM 모드/Huggingface 로컬 모드
+## Chandra OCR을 사용하여 이미지 csv 형식으로 변환하기
 
+
+PDF/이미지 문서를 HTML/Markdown/JSON 세가지 구조로 변환
+vLLM 모드/Huggingface 로컬 모드 선택
 -> 이미지를 .html파일과 .csv파일로 생성
 
 * 이미지 데이터 외부 전송을 방지하기 위해 vLLM이 아닌 로컬에서 진행
