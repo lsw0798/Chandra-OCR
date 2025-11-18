@@ -1,5 +1,10 @@
 ## Chandra OCR을 사용하여 이미지 csv 형식으로 변환하기
 
+```Bash
+# cli에서 실행 -> .json, .html, .md로 변환
+# 이미지를 입력하면 .html로만 변환
+chandra ./imgs/image.jpg ./output --method hf
+```
 
 PDF/이미지 문서를 HTML/Markdown/JSON 세가지 구조로 변환
 vLLM 모드/Huggingface 로컬 모드 선택
